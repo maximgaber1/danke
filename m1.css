@@ -1,0 +1,99 @@
+body {
+    background-image: url(bilder/berg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+
+
+}
+
+
+
+h1 {
+    background-color: red;
+    margin-left: 400px;
+    padding: 30px;
+    width: 930px;
+}
+
+h2 {
+    margin-left: 900px;
+    margin-top: -100px;
+
+    width: 150px;
+
+
+
+
+}
+
+
+img {
+    margin-left: 50px;
+
+    animation: mymove1 10s;
+    animation-fill-mode: forwards;
+    margin-left: 60px;
+
+
+
+    width: 300px;
+
+    border-radius: 800px;
+}
+
+
+
+.a {
+
+    color: white;
+    font-style: italic;
+    font-size: 33px;
+    border: 0;
+    width: 300px;
+    height: 500px;
+
+    margin-left: 50px;
+
+
+
+    animation: mymove2 8s;
+    animation-fill-mode: forwards;
+    margin-left: 60px;
+
+
+
+}
+
+.a hover {}
+
+@keyframes mymove1 {
+    from {
+        margin-left: 2000px;
+    }
+
+    to {
+        margin-top: 0;
+    }
+}
+
+@keyframes mymove2 {
+    from {
+        margin-top: 500px;
+    }
+
+    to {
+        margin-top: ;
+    }
+}
+
+@keyframes mymove3 {
+    from {
+        margin-left: 800px;
+    }
+
+    to {
+        margin-left: 20;
+    }
